@@ -3,7 +3,7 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-background: #E8F0FF;
+background: #424453;
 height: 100px;
 display: flex;
 justify-content: end;
@@ -17,28 +17,32 @@ z-index: 12;
 `;
 
 export const NavLink = styled(Link)`
-color: #E8F0FF;
+color: #E9EDDE;
 display: flex;
-align-items: center;
 justify-content: center;
 text-decoration: none;
-padding: 2px;
-margin: 20px;
-height: 50%;
+padding: 0px;
+// margin: 20px;
 min-width: 80px;
-// border-radius: 25px;
 cursor: pointer;
-&.active {
-	// text-decoration: underline;
-	border-bottom: 1px solid #E8F0FF;
-	padding-bottom: 1px;
-}
-&:hover {
-	border-bottom: 1px solid #E8F0FF;
-	padding-bottom: 1px;
-	// text-decoration: underline;
-	// transition: transform 0.25s ease-out;
-}
+
+// font-family: Cousine;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 64px;
+
+// &.active {
+// 	// text-decoration: underline;
+// 	border-bottom: 1px solid #E8F0FF;
+// 	padding-bottom: 1px;
+// }
+// &:hover {
+// 	border-bottom: 1px solid #E8F0FF;
+// 	padding-bottom: 1px;
+// 	// text-decoration: underline;
+// 	// transition: transform 0.25s ease-out;
+// }
 `;
 
 export const Bars = styled(FaBars)`
@@ -57,24 +61,42 @@ color: #E8F0FF;
 
 export const NavMenu = styled.div`
 display: flex;
-align-items: center;
-margin-right: -24px;
-/* Second Nav */
-/* margin-right: 24px; */
-/* Third Nav */
-/* width: 100vw;
-white-space: nowrap; */
-@media screen and (max-width: 768px) {
-	display: none;
-}
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 65px;
+
+position: absolute;
+width: 486px;
+height: 64px;
+left: 834px;
+top: 54px;
+
+// display: flex;
+// align-items: center;
+// margin-right: -24px;
+// /* Second Nav */
+// /* margin-right: 24px; */
+// /* Third Nav */
+// /* width: 100vw;
+// white-space: nowrap; */
+// @media screen and (max-width: 768px) {
+// 	display: none;
+// }
 `;
 
 export const NavBtn = styled.nav`
-display: flex;
-align-items: center;
-justify-content: start;
-padding-left: 15%;
-margin-right: 24px;
+position: absolute;
+width: 64px;
+height: 64px;
+left: 93px;
+top: 54px;
+
+// display: flex;
+// align-items: center;
+// justify-content: start;
+// padding-left: 15%;
+// margin-right: 24px;
 /* Third Nav */
 // /* justify-content: flex-end;
 width: 100vw; */
@@ -84,6 +106,7 @@ width: 100vw; */
 `;
 
 export const NavBtnLink = styled(Link)`
+display: flex;
 border-radius: 4px;
 // background: #E8F0FF;
 padding: 10px 22px;

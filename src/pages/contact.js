@@ -5,11 +5,12 @@ const Contact = () => {
     <div
     style={{
         display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
+        color: '#E9EDDE',
+        // alignItems: 'center',
+        // justifyContent: 'center'
       }}
     >
-      <h1>Contact</h1>
+      <h1 class='title'>Contact</h1>
     </div>
   );
 };

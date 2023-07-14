@@ -1,0 +1,9 @@
+.title {
+    display: flex;
+    font-size: 45px;
+    letter-spacing: 0.1em;
+    /* position: 'relative', */
+    position: absolute;
+    left: 170px;
+    top: 130px;
+}

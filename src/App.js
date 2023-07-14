@@ -13,18 +13,19 @@ import Projects from './pages/projects';
 import Blog from './pages/blog';
 import Contact from './pages/contact';
 
+
 function App() {
   return (
     <div>
-      <div class="content-container">
+      <div class="header-container">
         <Router>
         <Navbar />
           <Routes>
           <Route path='/' exact element={<Home/>}></Route>
           {/* <Route path='/' element={<Home/>}></Route> */}
           <Route path='/about' element={<About/>}></Route>
-          <Route path='/projects' element={<Projects/>}></Route>
           <Route path='/blog' element={<Blog/>}></Route>
+          <Route path='/projects' element={<Projects/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>
         </Routes>
       </Router>
@@ -32,7 +33,7 @@ function App() {
       
        <div class="footer">
         <li>
-          <a href='https://www.linkedin.com/in/annabellatian/'><img src={linkedin} width='20'></img></a>
+          <a href='https://www.linkedin.com/in/annabellatian/'><img class="filter-white" src={linkedin} width='20'></img></a>
         </li>
         <li>
           <a href='https://github.com/annabellatian'><img src={github} width='20'></img></a>
