@@ -12,6 +12,9 @@ import About from './pages/about';
 import Projects from './pages/projects';
 import Blog from './pages/blog';
 import Contact from './pages/contact';
+import ThreeBodyProblem from './pages/posts/three-body-problem';
+import DarkForest from './pages/posts/dark-forest';
+import DeathsEnd from './pages/posts/deaths-end';
 
 
 function App() {
@@ -22,11 +25,15 @@ function App() {
         <Navbar />
           <Routes>
           <Route path='/' exact element={<Home/>}></Route>
-          {/* <Route path='/' element={<Home/>}></Route> */}
           <Route path='/about' element={<About/>}></Route>
           <Route path='/blog' element={<Blog/>}></Route>
           <Route path='/projects' element={<Projects/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>
+          <Route path='/posts/three-body-problem' element={<ThreeBodyProblem/>}></Route>
+          <Route path='/posts/dark-forest' element={<DarkForest/>}></Route>
+          <Route path='/posts/deaths-end' element={<DeathsEnd/>}></Route>
+
+
         </Routes>
       </Router>
       </div>
