@@ -4,10 +4,10 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
 background: #424453;
-height: 100px;
 display: flex;
 justify-content: end;
-padding-top: 25px;
+// padding-top: 2rem;
+// padding-bottom: 2rem;
 background:transparent;
 // padding-left: 0.2rem calc((100vw - 1000px) / 2);
 padding-right: 15%;
@@ -21,16 +21,16 @@ color: #E9EDDE;
 display: flex;
 justify-content: center;
 text-decoration: none;
-padding: 0px;
+padding-top: 3rem;
 // margin: 20px;
-min-width: 80px;
+min-width: 5rem;
 cursor: pointer;
 
 // font-family: Cousine;
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
-line-height: 64px;
+font-size: 1rem;
+// line-height: 64px;
 
 // &.active {
 // 	// text-decoration: underline;
@@ -63,14 +63,15 @@ export const NavMenu = styled.div`
 display: flex;
 flex-direction: row;
 align-items: flex-start;
+justify-content: right;
 padding: 0px;
-gap: 65px;
+gap: 15px;
 
-position: absolute;
-width: 486px;
-height: 64px;
-left: 834px;
-top: 54px;
+// position: absolute;
+// width: 486px;
+// height: 64px;
+// left: 834px;
+// top: 54px;
 
 // display: flex;
 // align-items: center;
@@ -86,16 +87,11 @@ top: 54px;
 `;
 
 export const NavBtn = styled.nav`
-position: absolute;
-width: 64px;
-height: 64px;
-left: 93px;
-top: 54px;
-
+vertical-align: middle;
 // display: flex;
-// align-items: center;
-// justify-content: start;
-// padding-left: 15%;
+align-items: left;
+justify-content: center;
+padding-left: 5.5rem;
 // margin-right: 24px;
 /* Third Nav */
 // /* justify-content: flex-end;
@@ -109,7 +105,7 @@ export const NavBtnLink = styled(Link)`
 display: flex;
 border-radius: 4px;
 // background: #E8F0FF;
-padding: 10px 22px;
+padding: 2rem 1.375rem;
 color: #000000;
 outline: none;
 border: none;

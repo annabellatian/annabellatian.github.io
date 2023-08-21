@@ -15,7 +15,7 @@ const Contact = () => {
         style={{
           // display: 'flex',
           justifyContent: 'left',
-          padding: 'calc(8px + 1.5625vw)',
+          // padding: 'calc(8px + 1.5625vw)',
           paddingTop: '0px',
           paddingBottom: '0px',
           fontSize: '20px',

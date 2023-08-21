@@ -14,7 +14,7 @@ const About = () => {
       style={{
           display: 'flex',
           justifyContent: 'left',
-          padding: 'calc(8px + 1.5625vw)',
+          // padding: 'calc(8px + 1.5625vw)',
           paddingTop: '0px',
           fontSize: '18px',
           fontStyle: 'normal',
@@ -28,16 +28,12 @@ const About = () => {
       <div
         style={{
           display: 'flex',
-          position: 'absolute',
-          left: '180px',
-          right: '150px',
-          top: '510px',
-          fontSize: '18px',
           fontStyle: 'normal',
           fontWeight: '500',
           lineHeight: '25px', /* 160.714% */
           letterSpacing: '0.84px',
           flexDirection: 'column',
+          marginLeft: '1rem',
         }}>
           <li>Playing the flute and piano</li>
           <li>Listening to music and making playlists on Spotify</li>

@@ -1,20 +1,16 @@
 .title {
     display: flex;
-    font-size: 45px;
+    font-size: 2.8125rem;
     /* letter-spacing: 0.1em; */
-    padding: calc(8px + 1.5625vw);
-    padding-top: 10%;
+    /* padding: calc(8px + 1.5625vw); */
+    /* padding-top: 10%; */
+    /* padding-left: 5.5rem; */
     padding-bottom: 0px;
-    /* position: 'relative', */
-    /* position: absolute; */
-    /* left: 170px;
-    top: 130px; */
 }
 
 h2 {
     display: flex;
     justify-content: left;
-    padding: calc(8px + 1.5625vw);
     padding-top: 0px;
     padding-bottom: 0px;
     font-size: 20px;
@@ -27,7 +23,7 @@ h2 {
 h3 {
     display: flex;
     justify-content: left;
-    padding: calc(8px + 1.5625vw);
+    /* padding: calc(8px + 1.5625vw); */
     padding-top: 0px;
     padding-bottom: 0px;
     font-size: 16px;
@@ -39,14 +35,14 @@ h3 {
 
 .container {
     width: 100%;
-    padding-left: 115px;
-    padding-right: 115px;
+    padding: 5.5rem 8.5rem 0em;
     margin-right: auto;
     margin-left: auto;
 }
 
 .header {
-    padding: 40px 0px;
+    color:#5080BC;
+    /* padding: 40px 0px; */
 }
 
 .bolded { font-weight: bold; }
@@ -56,7 +52,7 @@ h3 {
 .blog-link {
     display: flex;
     justify-content: left;
-    padding: calc(8px + 1.5625vw);
+    /* padding: calc(8px + 1.5625vw); */
     padding-top: 0px;
     padding-bottom: 0px;
     font-size: 20px;
