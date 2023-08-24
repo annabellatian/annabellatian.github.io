@@ -10,6 +10,7 @@ const Home = () => {
       <div class='container'
       style={{
         color: '#E9EDDE',
+        width: '70% !important'
       }}>
       <div style={{padding: '3rem 0'}}>
         <h1

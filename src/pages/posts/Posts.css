@@ -34,7 +34,6 @@ h3 {
 }
 
 .container {
-    display: table-cell;
     width: 70%;
     padding: 5rem 5.5rem 0rem;
     margin-right: auto;
