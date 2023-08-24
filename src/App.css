@@ -42,7 +42,7 @@
   -webkit-filter: brightness(50%);
 }
 
-.header-container {
+/* .header-container {
   min-height: calc(100vh - 103.5px);
   display: flex;
-}
+} */

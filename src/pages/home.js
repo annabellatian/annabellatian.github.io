@@ -6,12 +6,13 @@ import './Pages.css';
 
 const Home = () => {
   return (
-    <div class='container'
+    <div>
+      <div class='container'
       style={{
         color: '#E9EDDE',
-        verticalAlign: 'center'
       }}>
-      <h1
+      <div style={{padding: '3rem 0'}}>
+        <h1
         style={{
           // display: 'flex',
           justifyContent: 'left',
@@ -20,7 +21,7 @@ const Home = () => {
           // paddingLeft: 'calc(8px + 1.5625vw)',
           // paddingRight: 'calc(8px + 1.5625vw)',
           paddingBottom: '0px',
-          paddingTop: '3rem',
+          // paddingTop: '3rem',
           }}>I'M ANNABELLA TIAN.
         </h1>
         <h2
@@ -67,6 +68,10 @@ const Home = () => {
           <div><Link to='/about'><img src={arrow} width='60' color='#E9EDDE'></img></Link></div>
         </div>
       </div>
+      
+      </div>
+    </div>
+    
   );
 };
   

@@ -40,18 +40,27 @@ h3 {
 }
 
 .container {
+    /* display: flex; */
     width: 100%;
     padding: 5.5rem 8.5rem 0em;
     margin-right: auto;
     margin-left: auto;
+    align-items: center;
 }
 
 .header {
-    /* padding: 40px 0px; */
+    padding: 1rem 0px 0;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
     position: fixed;
     top: 0;
     width: 100%;
-    /* background:#5080BC; */
+    background: transparent;
+    background-image: linear-gradient(to top, rgba(39, 41, 50, 0.6), rgba(39, 41, 50, 0.9));
+    /* background:rgb(27, 28, 35); */
+    z-index: 1000;
 }
 
 .bolded { font-weight: bold; }
@@ -84,4 +93,9 @@ h3 {
     line-height: 33px; /* 160.714% */      
     letter-spacing: 2px;
     color: #5080BC;
+}
+
+.vertical-align {
+    /* width: 100%; */
+    align-items: center;
 }

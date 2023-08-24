@@ -21,8 +21,9 @@ code {
 .footer {
   display: flex;
   flex-direction: row;
+
   align-items: flex-start;
-  padding: 0px;
+  padding: 1.5625rem 5.5rem;
   gap: 40px;
 
   position: relative;
@@ -30,10 +31,9 @@ code {
   height: 30px;
   top: 927px; */
   /* padding-left: 15%; */
-  left: 125px;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  /* left: 125px; */
   list-style-type: none;
+  background-image: linear-gradient(to bottom, rgba(35, 37, 45, 0), rgb(39, 41, 50, 0.6));
 
   /* position: relative;
   bottom: 0;
@@ -47,5 +47,6 @@ code {
 .footer li {
   -webkit-filter: invert(1);
   filter: invert(1);
-  padding: 15px;
+  padding: 0.9375rem 0;
+  margin-right: 2rem;
 }
