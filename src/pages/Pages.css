@@ -10,16 +10,15 @@
 
 @layer components {
     .page-container {
-        @apply h-full flex float-left place-content-center py-16 bg-lightGray items-center;
+        @apply h-full flex float-left content-start justify-center bg-lightGray py-16 sm:items-center sm:content-start;
     }
     .text-scroll-container {
         @apply text-darkGreen px-[15%] overflow-auto my-0 sm:my-16;
     }
-    .page-scroll-container {
+    /* .page-scroll-container {
         @apply h-full flex float-left content-start justify-center bg-lightGray py-16 sm:items-center;
-        /* @apply h-full flex float-left content-start justify-center bg-lightGray py-16; */
 
-    }
+    } */
     .project-link {
         @apply text-xl text-darkGreen underline decoration-solid font-light leading-relaxed;
     }

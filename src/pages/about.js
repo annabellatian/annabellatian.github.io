@@ -4,7 +4,7 @@ import './Pages.css';
   
 const About = () => {
   return (
-    <div class='page-scroll-container'>
+    <div class='page-container'>
       <div class='text-scroll-container'>
         <h1 class='text-5xl py-4 sm:text-6xl'>About</h1>
         <h4 class='text-l pb-4'>
