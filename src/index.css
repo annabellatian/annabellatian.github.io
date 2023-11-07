@@ -1,3 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,35 +17,20 @@ code {
     monospace;
 }
 
-.header-container {
+/* .header-container {
   min-height: calc(100vh - 103.5px);
   display: flex;
-}
+} */
 
 .footer {
   display: flex;
   flex-direction: row;
-
   align-items: flex-start;
   padding: 1.5625rem 5.5rem;
   gap: 40px;
-
   position: relative;
-  /* width: 310px;
-  height: 30px;
-  top: 927px; */
-  /* padding-left: 15%; */
-  /* left: 125px; */
   list-style-type: none;
   background-image: linear-gradient(to bottom, rgba(35, 37, 45, 0), rgb(39, 41, 50, 0.6));
-
-  /* position: relative;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-  padding-left: 15%;
-  padding-bottom: 25px;
-  padding-top: 25px; */
 }
 
 .footer li {

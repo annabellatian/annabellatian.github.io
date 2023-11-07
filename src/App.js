@@ -5,6 +5,8 @@ import instagram from './media/instagram.svg';
 import youtube from './media/youtube.svg';
 
 import './App.css';
+import './index.css';
+
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
@@ -13,34 +15,31 @@ import Projects from './pages/projects';
 import Blog from './pages/blog';
 import Contact from './pages/contact';
 import ThreeBodyProblem from './pages/posts/three-body-problem';
-import DarkForest from './pages/posts/dark-forest';
-import DeathsEnd from './pages/posts/deaths-end';
+import NorwegianWood from './pages/posts/norwegian-wood';
+
 
 
 function App() {
   return (
-    <div>
-      <div class="header-container">
+    <div class='h-screen w-full'>
         <Router>
-        <Navbar />
+        <Navbar/>
           <Routes>
           <Route path='/' exact element={<Home/>}></Route>
           <Route path='/about' element={<About/>}></Route>
           <Route path='/blog' element={<Blog/>}></Route>
           <Route path='/projects' element={<Projects/>}></Route>
-          <Route path='/contact' element={<Contact/>}></Route>
+          {/* <Route path='/contact' element={<Contact/>}></Route> */}
           <Route path='/posts/three-body-problem' element={<ThreeBodyProblem/>}></Route>
-          <Route path='/posts/dark-forest' element={<DarkForest/>}></Route>
-          <Route path='/posts/deaths-end' element={<DeathsEnd/>}></Route>
+          <Route path='/posts/norwegian-wood' element={<NorwegianWood/>}></Route>
+
 
 
         </Routes>
       </Router>
-      </div>
-      
-       <div class="footer">
+      <div class="w-full absolute bottom-0 bg-darkGreen opacity-80 h-16 list-none flex list-none space-x-10 justify-center items-center self-end overflow-hidden">
         <li>
-          <a href='https://www.linkedin.com/in/annabellatian/'><img class="filter-white" src={linkedin} width='20'></img></a>
+          <a href='https://www.linkedin.com/in/annabellatian/'><img src={linkedin} width='20'></img></a>
         </li>
         <li>
           <a href='https://github.com/annabellatian'><img src={github} width='20'></img></a>
@@ -57,22 +56,6 @@ function App() {
       </div>
     
     </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 
