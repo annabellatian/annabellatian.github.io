@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div class='absolute top-0 w-full h-16 bg-darkGreen opacity-80 items-center flex justify-center space-x-4 text-lightGray z-50'>
+            <div class='top-0 w-full h-16 items-center flex justify-center space-x-4 text-darkGreen min-w-[300px] my-4'>
                 {/* <NavLink class='px-8' to='/'>
                     <img src={icon} width='50'/>
                 </NavLink> */}
@@ -26,16 +26,16 @@ const Navbar = () => {
                 <div class={`${showNavbar && 'active'}`}>
                     <ul class='justify-between flex list-none space-x-8'>
                         <li>
-                            <NavLink to='/' activestyle>Home</NavLink>
+                            <NavLink to='/' activestyle><div className='rounded-full border border-darkGreen py-1 px-2 border-opacity-50'>Home</div></NavLink>
                         </li>
                         <li>
-                            <NavLink to='/about' activestyle>About</NavLink>
+                            <NavLink to='/about' activestyle><div className='rounded-full border border-darkGreen py-1 px-2 border-opacity-50'>About</div></NavLink>
                         </li>
                         <li>
-                            <NavLink to='/blog' activestyle>Blog</NavLink>
+                            <NavLink to='/blog' activestyle><div className='rounded-full border border-darkGreen py-1 px-2 border-opacity-50'>Blog</div></NavLink>
                         </li>
                         <li>
-                            <NavLink to='/projects' activestyle>Projects</NavLink>
+                            <NavLink to='/projects' activestyle><div className='rounded-full border border-darkGreen py-1 px-2 border-opacity-50'>Projects</div></NavLink>
                         </li>
                         {/* <li>
                             <NavLink to='/contact' activestyle>Contact</NavLink>

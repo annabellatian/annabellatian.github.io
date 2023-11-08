@@ -13,8 +13,8 @@ module.exports = {
       'darkGray': '#5D5E60'
     },
     screens: {
-      'sm': '576px',
-      // => @media (min-width: 576px) { ... }
+      'sm': '640px',
+      // => @media (min-width: 476px) { ... }
     
       'md': '768px',
       // => @media (min-width: 768px) { ... }
@@ -25,7 +25,11 @@ module.exports = {
       'xl': '1200px',
       // => @media (min-width: 1200px) { ... }
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      }
+    },
   },
   plugins: [],
 }

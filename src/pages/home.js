@@ -1,14 +1,14 @@
 import React from 'react';
 import arrow from './learnMoreArrow.svg';
 import {Link} from "react-router-dom";
-import './Pages.css';
+// import './Pages.css';
 
 
 const Home = () => {
   return (
-    <div class='page-container'>
-      <div class='text-scroll-container'>
-        <h1 class='text-5xl py-4 sm:text-6xl'>Hi, I'm Annabella
+    <div className='flex h-screen grow text-darkGreen mx-[15%] min-h-[500px] overflow-hidden min-w-[300px] items-start sm:items-center'>
+      <div className='py-4'>
+        <h1 class='text-5xl pb-4 sm:text-6xl'>Hi, I'm Annabella
         </h1>
         <h2 class='text-2xl pb-4 sm:text-3xl'>
           A student & aspiring software engineer
@@ -19,9 +19,11 @@ const Home = () => {
         <div class='flex items-center pt-8 pb-4'>
           <h4 class='font-semibold'>Learn more about me</h4>
           <div class='px-8'><Link to='/about'><img src={arrow} width='60' color='#36413E'></img></Link></div>
-        </div>
+        </div> 
       </div>
+                   
     </div>
+      
   );
 };
   

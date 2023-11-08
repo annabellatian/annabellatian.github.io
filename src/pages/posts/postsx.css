@@ -4,10 +4,10 @@
 
 @layer components {
     .post-container {
-        @apply h-full flex float-left content-start justify-center bg-lightGray py-16;
+        @apply flex float-left content-start justify-center bg-lightGray;
     }
     .post-text-container {
-        @apply text-darkGreen px-[15%] overflow-auto my-0 sm:my-16;
+        @apply text-darkGreen px-[10%] sm:px-[15%];
     }
     .blog-link {
         @apply text-xl text-darkGreen underline decoration-solid font-light leading-relaxed;
