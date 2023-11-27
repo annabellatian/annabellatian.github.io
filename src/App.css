@@ -46,7 +46,41 @@
   -webkit-filter: brightness(50%);
 }
 
-/* .header-container {
-  min-height: calc(100vh - 103.5px);
-  display: flex;
-} */
+@layer base {
+  @font-face {
+    font-family: Qestero;
+    font-weight: 400;
+    src: url(fonts/QesteroRegular-axKqR.woff) format("woff");
+  }
+  @font-face {
+    font-family: Amerton;
+    font-weight: 900;
+    src: url(fonts/AmertonOutline-GKyA.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: Bekinder;
+    font-weight: normal;
+    src: url(fonts/bekinder.regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: BekinderItalic;
+    font-weight: normal;
+    src: url(fonts/bekinder.italic.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: BekinderOutline;
+    font-weight: normal;
+    src: url(fonts/bekinder.outline.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: IBMPlexSans;
+    font-weight: normal;
+    src: url(fonts/IBMPlexSans-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: Cardif;
+    font-weight: normal;
+    font-size: xx-large;
+    src: url(fonts/CARDIF__.TTF) format("truetype");
+  }
+}

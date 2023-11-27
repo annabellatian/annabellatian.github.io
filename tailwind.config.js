@@ -5,15 +5,16 @@ module.exports = {
   ],
   theme: {
     colors: {
-
-      'lightGray': '#D7D6D6',
+      'offWhite': '#FFF5E8',
       'white': 'white',
       'black': 'black',
-      'darkGreen': '#36413E',
-      'darkGray': '#5D5E60'
+      'textColor': '#0F0605',
+      'darkGray': '#5D5E60',
+      'yellow': '#FFF2B9',
+      'lilac': '#C198C3'
     },
     screens: {
-      'sm': '640px',
+      'sm': '550px',
       // => @media (min-width: 476px) { ... }
     
       'md': '768px',
@@ -28,7 +29,17 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-      }
+      },
+      fontFamily: {
+        'qestero': ['Qestero','Roboto'],
+        'amerton': ['Amerton', "Segoe UI"],
+        'bekinder': ['Bekinder', 'Roboto'],
+        'bekinderItalic': ['BekinderItalic', 'Roboto'],
+        'bekinderOut': ['BekinderOutline', 'Roboto'],
+        'bodyText': ['IBMPlexSans', 'Roboto'],
+        'cardif': ['Cardif', 'Roboto']
+        // 'amerton-italic': ['AmertonI','Roboto']
+      },
     },
   },
   plugins: [],

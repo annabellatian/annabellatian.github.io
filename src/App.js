@@ -21,7 +21,7 @@ import NorwegianWood from './pages/posts/norwegian-wood';
 
 function App() {
   return (
-    <div class='h-screen w-full flex flex-col overflow-auto bg-gradient-radial from-purple-600 via-pink-600 to-blue-600'>
+    <div class='h-screen w-full flex flex-col overflow-auto bg-[radial-gradient(ellipse_at_center,rgba(255,240,173,0.70)_30%,rgba(207,155,209,0.70)_100%)]'>
         <Router>
         <Navbar/>
             <Routes>
@@ -34,7 +34,7 @@ function App() {
             <Route path='/posts/norwegian-wood' element={<NorwegianWood/>}></Route>
             </Routes>          
       </Router>
-      <div class="w-full bottom-0 h-16 list-none flex list-none space-x-10 justify-center items-center min-w-[300px] my-4">
+      <div class="w-full bottom-0 h-16 list-none flex list-none space-x-10 justify-center items-center min-w-[300px] min-h-[64px] my-4">
         <li>
           <a href='https://www.linkedin.com/in/annabellatian/'><img src={linkedin} width='25'></img></a>
         </li>
