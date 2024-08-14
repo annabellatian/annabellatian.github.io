@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -44,7 +44,7 @@
 .filter-white {
   filter: invert(5%) sepia(78%) saturate(6858%) hue-rotate(276deg) brightness(97%) contrast(101%);
   -webkit-filter: brightness(50%);
-}
+} */
 
 @layer base {
   @font-face {

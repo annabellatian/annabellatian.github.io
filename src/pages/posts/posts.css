@@ -1,0 +1,40 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .post-container {
+        @apply flex grow text-textColor mx-[10%] sm:mx-[15%] items-start min-w-[300px] mt-24;
+    }
+    .post-text-container {
+        @apply text-textColor px-[10%] sm:px-[15%];
+    }
+    .blog-link {
+        @apply text-xl text-textColor underline decoration-solid font-light leading-relaxed;
+    }
+    .title-start {
+        @apply text-4xl pb-4 font-bekinderOut leading-relaxed;
+    }
+    .title {
+        @apply text-5xl font-amerton;
+    }
+}
+
+.bolded { font-weight: bold; }
+
+.italicized { font-style: italic; }
+
+.fade {
+    margin-top: 4.359rem;
+    padding: 2rem 0;
+    width: 100%;
+    position: fixed;
+    background-image: linear-gradient(to top, rgba(77, 80, 97, 0), rgba(39, 41, 50, 0.6));
+}
+
+.fade1 {
+    padding: 5rem 0;
+    width: 100%;
+    position: fixed;
+    background-image: linear-gradient(to top, rgba(35, 37, 45, 0), rgb(35, 37, 45));
+} */

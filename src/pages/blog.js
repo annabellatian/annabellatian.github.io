@@ -3,7 +3,7 @@ import {Link } from 'react-router-dom';
   
 const Blog = () => {
   return (
-    <div className='flex h-screen grow text-textColor mx-[10%] sm:mx-[15%] items-center min-h-[500px] overflow-hidden min-w-[300px]'>
+    <div id="blog" className='flex h-screen grow text-textColor mx-[10%] sm:mx-[15%] items-center min-h-[500px] min-w-[300px]'>
       <div className='py-4'>
         <h1 className='text-6xl pb-4 sm:text-7xl font-cardif italic'>Blog</h1>
         <h2 className='text-l pb-4 sm:text-xl font-bodyText'>Click on any of my blog posts below to read about what I’m learning, my thoughts on my favorite media, and more! I’m always writing more so check back here for new posts.</h2>

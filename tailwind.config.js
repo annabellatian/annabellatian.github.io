@@ -5,13 +5,14 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'offWhite': '#FFF5E8',
+      'offWhite': '#FCF9ED',
       'white': 'white',
       'black': 'black',
       'textColor': '#0F0605',
-      'darkGray': '#5D5E60',
-      'yellow': '#FFF2B9',
-      'lilac': '#C198C3'
+      'darkGray': '#1F1F1F',
+      'pink': '#EED2DE',
+      'lightBlue': '#7FAAC7',
+      'darkBlue': '#282853'
     },
     screens: {
       'sm': '550px',

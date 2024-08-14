@@ -1,30 +1,24 @@
 import React from 'react';
-// import './Pages.css';
+import '../index.css';
 
   
 const About = () => {
   return (
-    
-    <div className='flex h-screen grow text-textColor mx-[10%] sm:mx-[15%] min-h-[620px] min-w-[300px] items-start sm:items-center'>
+    <div id="about" className='flex h-screen grow text-textColor mx-[10%] sm:mx-[15%] min-h-[620px] min-w-[300px] items-start sm:items-center'>
       <div className='py-4'>
         <h1 className='text-6xl pb-4 sm:text-7xl font-cardif italic'>About</h1>
-        <h4 className='text-l pb-4 font-bodyText'>
-          I was initially drawn to computer science as a field where creativity meets innovation and logic translates to limitless possibilities. 
-          Soon, I fell in love with the ability to solve problems and now I aim to leverage the field's power to shape the future by crafting new solutions for real-world challenges. 
-          As such, I am currently pursuing a Bachelor's of Science in Engineering in Computer Science and an accelerated Master's of Science in Computer Science, with minors in Math and Fine Arts at the University of Pennsylvania. 
-          In the future, I hope to pursue a career in software engineering.
+        <h4 className='text-xl pb-4 font-bodyText'>
+          In my third year at the <span className='italic'>University of Pennsylvania</span>, I am pursuing a Bachelor's of Science in Engineering in <span className='italic'>Computer Science</span> and an Accelerated Master's of Science in Computer Science, with minors in Math and Fine Arts.
+          <br></br><br></br>
+          During my time at Penn, I've worked as a developer for <a className="link" href="https://www.thedp.com/">The Daily Pennsylvanian, Inc.</a> and teaching assistant for Penn's data structures and algorithms course (<a className="link" href="https://www.cis.upenn.edu/~cis1210/current/">CIS 1210</a>)
+          Most recently, I began working as a deep learning researcher under Dr. Mayur Naik, focusing on LLM inference optimization. 
+          In the future, I hope to pursue a career in <span className='italic'>software engineering</span>.
+
            <br></br><br></br>
-          Outside of computer science, I am also interested in philosophy, math, and economics, having taken courses in each. In my free time, I enjoy exploring these topics as well as:
+          Other than computer science, I am also interested in philosophy, math, and visual arts. 
+          In my free time, I enjoy playing the flute and piano, listening to music, and running.
         </h4>
-        <div className='text-l pb-4 font-bodyText'>
-          <li>Playing the flute and piano</li>
-          <li>Listening to music and making playlists on Spotify</li>
-          <li>Running and staying active</li>
-          <li>Reading</li>
-          <li>Balisong (butterfly knife) flipping</li>
-        </div>
       </div>
-      
     </div>
   );
 };
