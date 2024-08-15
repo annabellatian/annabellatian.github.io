@@ -1,8 +1,10 @@
+'use client';
 import './index.css';
 import './App.css';
 
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {useEffect} from 'react';
 import Home from './pages/home';
 import About from './pages/about';
 import Projects from './pages/projects';
@@ -20,7 +22,7 @@ function App() {
   };
 
   return (
-    <div className='bg-offWhite h-full w-full'>
+    <div className='bg-offWhite h-full w-full dark:bg-darkBlue transition ease-in-out delay-75'>
       <div class='flex flex-col'>
         <Router>
           <Navbar/>
@@ -73,8 +75,8 @@ function App() {
           </li>
           <li className='my-0 flex'>
             <Magnetic>
-              <button className="self-center hover:fill-lightBlue transition ease-in-out delay-75" onClick={copyToClipboard}>
-                <svg className="footer-link hover:fill-lightBlue transition ease-in-out delay-75" width="auto" height="36px" viewBox="-0.5 -0.5 25 25" class="size-6">
+              <button className="self-center" onClick={copyToClipboard}>
+                <svg className="footer-link" width="auto" height="36px" viewBox="-0.5 -0.5 25 25" class="size-6">
                   <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
                   <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
                 </svg>

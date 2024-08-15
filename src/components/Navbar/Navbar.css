@@ -7,18 +7,22 @@
 
 @layer components {
   .nav-button {
-    @apply transition ease-in-out delay-75 bg-offWhite hover:bg-lightBlue hover:text-offWhite hover:border-lightBlue rounded-full text-darkGray border border-darkGray py-1 px-4 border-opacity-50 text-opacity-80;
+    @apply transition ease-in-out delay-75 bg-offWhite hover:bg-lightBlue hover:text-offWhite hover:border-lightBlue rounded-full text-darkGray border border-darkGray py-1 px-4 border-opacity-50 text-opacity-80 dark:bg-darkBlue dark:border-offWhite dark:text-offWhite dark:border-opacity-50 dark:text-opacity-80;
+  }
+  .active {
+    @apply bg-darkGray text-offWhite dark:bg-offWhite dark:text-darkGray;
   }
 }
 
-.active {
+/* .active {
   background-color: rgb(31,31,31);
-  /* background-color: '#1F1F1F'; */
   color: rgb(252,249,237);
 }
 
-/* :target {
-  background: rgb(205, 35, 35);
+@media (prefers-color-scheme: dark) {
+  .active {
+    background-color: #282853;
+  }
 } */
 
 .header {
@@ -54,7 +58,6 @@
 .navbtnlink {
     display: flex;
     border-radius: 4px;
-    /* background: #E8F0FF; */
     padding: 2rem 10%;
     color: #000000;
     outline: none;
@@ -86,7 +89,6 @@
       width: 0;
       height: calc(100vh - 60px);
       transition: all 0.3s ease-in;
-      /* overflow: hidden; */
     }
   
     .nav-elements.active {

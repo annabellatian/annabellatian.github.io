@@ -2,10 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-html {
-  background-color: #FCF9ED;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -28,14 +24,20 @@ section {
 }
 
 @layer components {
+  html {
+    @apply bg-offWhite dark:bg-darkBlue transition-none;
+  }
   .project-link {
-    @apply font-bodyText text-xl text-textColor underline decoration-solid font-light leading-relaxed;
+    @apply font-bodyText text-xl underline decoration-solid font-light leading-loose;
   }
   .link {
-    @apply transition ease-in-out delay-75 underline underline-offset-2 hover:text-lightBlue;
+    @apply underline underline-offset-2 hover:text-lightBlue transition ease-in-out delay-75;
   }
   .footer-link {
-    @apply flex transition ease-in-out delay-75 fill-darkGray hover:fill-lightBlue place-items-center;
+    @apply flex transition ease-in-out delay-75 fill-darkGray dark:fill-offWhite hover:fill-lightBlue place-items-center opacity-90;
+  }
+  .section-container {
+    @apply flex transition ease-in-out delay-75 h-screen grow text-darkGray mx-[10%] sm:mx-[15%] items-center min-h-[500px] min-w-[300px] dark:text-offWhite;
   }
 }
 

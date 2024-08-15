@@ -49,7 +49,7 @@ const Home = () => {
   return (
     <div>
       <section id="home">
-        <div className='flex h-screen grow text-textColor px-[10%] sm:px-[15%] min-h-[550px] sm:min-h-[600px] min-w-[300px] items-center'>
+        <div className='section-container'>
           <div>
             <div className='text-5xl pb-4 flex-row'>
               <h1 className='font-amerton sm:text-[5rem] text-[4rem]'>Hi, I'm <span class='font-cardif italic'>Annabella</span></h1>
@@ -60,10 +60,10 @@ const Home = () => {
               <h2 className='text-2xl pb-2 sm:pb-4 sm:text-3xl font-bodyText'>&nbsp;aspiring software engineer</h2>
             </div>
             <div className='flex items-center pt-16 font-bodyText h-16'>
-              <h4 className='font-semibold'>Learn more about me</h4>
+              <h4 className='text-l font-semibold'>Learn more about me</h4>
               <div className='px-8 pt-2'>
                 <Link to='#about'><button onClick={() => scrolle('about')}>
-                  <svg className='learn-more-btn fill-darkGray hover:fill-lightBlue transition ease-in-out delay-75' width="73" height="20" viewBox="0 0 73 20" fill="#36413E" xmlns="http://www.w3.org/2000/svg">
+                  <svg className='learn-more-btn fill-darkGray dark:fill-offWhite hover:fill-lightBlue transition ease-in-out delay-75' width="73" height="20" viewBox="0 0 73 20" fill="#36413E" xmlns="http://www.w3.org/2000/svg">
                     <path d="M71.8086 10.8839C72.2967 10.3957 72.2967 9.60427 71.8086 9.11612L63.8536 1.16117C63.3655 0.67301 62.574 0.67301 62.0858 1.16117C61.5977 1.64932 61.5977 2.44078 62.0858 2.92893L69.1569 10L62.0858 17.0711C61.5977 17.5592 61.5977 18.3507 62.0858 18.8388C62.574 19.327 63.3655 19.327 63.8536 18.8388L71.8086 10.8839ZM0.606323 11.25H70.9247V8.75H0.606323V11.25Z"/>
                   </svg>
                 </button></Link></div>
