@@ -4,7 +4,6 @@ import './App.css';
 
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import {useEffect} from 'react';
 import Home from './pages/home';
 import About from './pages/about';
 import Projects from './pages/projects';
@@ -76,11 +75,13 @@ function App() {
           <li className='my-0 flex'>
             <Magnetic>
               <button className="self-center" onClick={copyToClipboard}>
-                <svg className="footer-link" width="auto" height="36px" viewBox="-0.5 -0.5 25 25" class="size-6">
+                {/* <svg className="flex transition ease-in-out delay-75 fill-darkGray dark:fill-offWhite hover:fill-lightBlue place-items-center opacity-90" width="auto" height="36px" viewBox="-1 -3 25 25" class="size-[36px]">
                   <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
                   <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
-                </svg>
-
+                </svg> */}
+                <svg className="footer-link" width="auto" height="36px" viewBox="0 -2 24 24">
+                  <path d="M22,8.32V18a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V8.69L4,9.78l7.52,4.1A1,1,0,0,0,12,14a1,1,0,0,0,.5-.14L20,9.49Z"></path>
+                  <path d="M22,6h0L20,7.18l-8,4.67L4,7.5,2,6.4V6A2,2,0,0,1,4,4H20A2,2,0,0,1,22,6Z"></path></svg>
               </button>
             </Magnetic>
           </li>
