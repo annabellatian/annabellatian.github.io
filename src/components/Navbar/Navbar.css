@@ -7,7 +7,7 @@
 
 @layer components {
   .nav-button {
-    @apply transition ease-in-out delay-75 bg-offWhite hover:bg-darkGray hover:text-offWhite rounded-full text-darkGray border border-darkGray py-1 px-4 border-opacity-50;
+    @apply transition ease-in-out delay-75 bg-offWhite hover:bg-lightBlue hover:text-offWhite hover:border-lightBlue rounded-full text-darkGray border border-darkGray py-1 px-4 border-opacity-50 text-opacity-80;
   }
 }
 

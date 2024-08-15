@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from '../components/Animate/fade';
   
 const Projects = () => {
   return (
@@ -7,17 +8,24 @@ const Projects = () => {
         <h1 className='text-6xl pb-4 sm:text-7xl font-cardif italic'>Projects</h1>
         <h2 className='text-l pb-4 sm:text-xl font-bodyText'>Click on any of my projects below to see what I've worked on.</h2>
         <br></br>
-        <button className='project-link' href="">Instagram-Lite Web App (contact for access) </button>
-        <br></br>
-        <a className='project-link' href="https://github.com/kuomat/Hotel_Reviews_Website">Travel Planning Website</a>
-        <br></br>
-        <a className='project-link' href='https://github.com/annabellatian/personal-website'>Personal Website</a>
-        <br></br>
-        <a className='project-link' href='https://github.com/annabellatian/minesweeper'>Minesweeper</a>
-        <br></br>
-        <a className='project-link' href='https://github.com/annabellatian/mun-debate-software'>Model UN Debate Software</a>
-        <br></br>
-        <a className='project-link' href='https://github.com/annabellatian/google-cal-scheduler'>Google Calendar Class Scheduler</a>
+        <Fade>
+          <a className='project-link pointer-events-none' href="">Instagram-Lite Web App (contact for access) </a>
+        </Fade>
+        <Fade>
+          <a className='project-link link' href="https://github.com/kuomat/Hotel_Reviews_Website">Travel Planning Website</a>
+        </Fade>
+        <Fade>
+          <a className='project-link link' href='https://github.com/annabellatian/personal-website'>Personal Website</a>
+        </Fade>
+        <Fade>
+          <a className='project-link link' href='https://github.com/annabellatian/minesweeper'>Minesweeper</a>
+        </Fade>
+        <Fade>
+          <a className='project-link link' href='https://github.com/annabellatian/mun-debate-software'>Model UN Debate Software</a>
+        </Fade>
+        <Fade>
+          <a className='project-link link' href='https://github.com/annabellatian/google-cal-scheduler'>Google Calendar Class Scheduler</a>
+        </Fade>
       </div>
     </div>
   );

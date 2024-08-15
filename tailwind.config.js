@@ -8,7 +8,7 @@ module.exports = {
       'offWhite': '#FCF9ED',
       'white': 'white',
       'black': 'black',
-      'textColor': '#0F0605',
+      'textColor': '#1F1F1F',
       'darkGray': '#1F1F1F',
       'pink': '#EED2DE',
       'lightBlue': '#7FAAC7',

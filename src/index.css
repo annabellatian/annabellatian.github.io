@@ -32,7 +32,10 @@ section {
     @apply font-bodyText text-xl text-textColor underline decoration-solid font-light leading-relaxed;
   }
   .link {
-    @apply underline underline-offset-2 hover:text-lightBlue;
+    @apply transition ease-in-out delay-75 underline underline-offset-2 hover:text-lightBlue;
+  }
+  .footer-link {
+    @apply flex transition ease-in-out delay-75 fill-darkGray hover:fill-lightBlue place-items-center;
   }
 }
 
