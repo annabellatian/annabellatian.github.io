@@ -9,7 +9,13 @@ const Projects = () => {
         <h2 className='text-l pb-4 sm:text-xl font-bodyText'>Click on any of my projects below to see what I've worked on.</h2>
         <br></br>
         <Fade>
+          <a className='project-link link pointer-events-none' href="">Minecraft-Lite Game Engine (contact for access) </a>
+        </Fade>
+        <Fade>
           <a className='project-link link pointer-events-none' href="">Instagram-Lite Web App (contact for access) </a>
+        </Fade>
+        <Fade>
+          <a className='project-link link pointer-events-none' href="">Chess Game Data Analysis (contact for access) </a>
         </Fade>
         <Fade>
           <a className='project-link link' href="https://github.com/kuomat/Hotel_Reviews_Website">Travel Planning Website</a>
